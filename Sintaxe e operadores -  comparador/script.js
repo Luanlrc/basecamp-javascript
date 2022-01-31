@@ -34,7 +34,7 @@ let comparacao;
     alert (`${igual}\n${soma}\n${comparacao}`);
 
     function repete(){
-    let repet = Number(prompt("Deseja fazer o processo noamente?\n1- Sim\n2 - Não"))
+    let repet = Number(prompt("Deseja fazer o processo novamente?\n1- Sim\n2 - Não"))
     
     if (!repet){
      alert ('Digite uma opção valida!')
